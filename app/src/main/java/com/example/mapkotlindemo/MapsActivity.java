@@ -50,6 +50,6 @@ public class MapsActivity extends AppCompatActivity implements OnMapReadyCallbac
 //        mMap.addMarker(new MarkerOptions().position(kjlatLng).title("Anup's College"));
         mMap.addMarker(markerOptions);
         mMap.moveCamera(CameraUpdateFactory.newLatLng(kjlatLng));
-        mMap.animateCamera(CameraUpdateFactory.newLatLngZoom(kjlatLng,16f));
+        mMap.animateCamera(CameraUpdateFactory.newLatLngZoom(kjlatLng,18f));
     }
 }
